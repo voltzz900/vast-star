@@ -226,7 +226,7 @@ def build(out):
     files[f"data/{NS}/loot_table/blocks/{block}.json"] = {
         "type": "minecraft:block", "random_sequence": f"{NS}:blocks/{block}",
         "pools": [{"bonus_rolls": 0.0, "rolls": 1.0, "entries": [{"type": "minecraft:item", "name": f"{NS}:{block}"}],
-                   "conditions": [{"condition": "minecraft:survives_explosion"}]}]}
+                   "condition": {"type": "minecraft:survives_explosion"}}]}
     shaped(block, ["###", "###", "###"], {"#": f"{NS}:vast_star"}, f"{NS}:{block}")
     files[f"data/{NS}/recipe/vast_star_from_block.json"] = {
         "type": "minecraft:crafting_shapeless", "category": "misc", "ingredients": [f"{NS}:{block}"],
