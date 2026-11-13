@@ -1,6 +1,6 @@
 # Registry page: Vast Star
 
-- **File:** `vaststar-0.1.0.hmod` (release v0.1.0), kind: mod
+- **File:** `vaststar-0.1.1.hmod` (release v0.1.1), kind: mod
 - **Icon:** `icons/vaststar.png`
 - **Name:** Vast Star
 - **Summary:** The last craft of the Vast family: five cores, a Star Seed and the Vast Star. Needs Vast Depths, Vast Ores, Vast Compressed and Vast Adventures.
